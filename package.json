@@ -9,8 +9,8 @@
     "push": "uniform sync push"
   },
   "dependencies": {
-    "@uniformdev/next-app-router": "20.49.2",
-    "@uniformdev/next-app-router-client": "20.49.2",
+    "@uniformdev/next-app-router": "20.49.4-alpha.2",
+    "@uniformdev/next-app-router-client": "20.49.4-alpha.2",
     "next": "^16.1.6",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
@@ -20,7 +20,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@uniformdev/cli": "20.49.2",
+    "@uniformdev/cli": "20.49.4-alpha.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

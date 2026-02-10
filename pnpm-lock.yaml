@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@uniformdev/next-app-router':
-        specifier: 20.49.2
-        version: 20.49.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: 20.49.4-alpha.2
+        version: 20.49.4-alpha.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@uniformdev/next-app-router-client':
-        specifier: 20.49.2
-        version: 20.49.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: 20.49.4-alpha.2
+        version: 20.49.4-alpha.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next:
         specifier: ^16.1.6
         version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -37,8 +37,8 @@ importers:
         specifier: ^19
         version: 19.2.3(@types/react@19.2.13)
       '@uniformdev/cli':
-        specifier: 20.49.2
-        version: 20.49.2(@types/node@20.19.33)(encoding@0.1.13)(typescript@5.9.3)
+        specifier: 20.49.4-alpha.2
+        version: 20.49.4-alpha.2(@types/node@20.19.33)(encoding@0.1.13)(typescript@5.9.3)
       tailwindcss:
         specifier: ^4
         version: 4.1.18
@@ -693,70 +693,70 @@ packages:
   '@types/react@19.2.13':
     resolution: {integrity: sha512-KkiJeU6VbYbUOp5ITMIc7kBfqlYkKA5KhEHVrGMmUUMt7NeaZg65ojdPk+FtNrBAOXNVM5QM72jnADjM+XVRAQ==}
 
-  '@uniformdev/assets@20.49.2':
-    resolution: {integrity: sha512-wo31GQM/ITRJA/sM90GVFDrr2bnNpv3oYgygplS9Tc6W+2DOD7uPL9m29TB+8+3ILYgtD0OZ8qVfe2C+upPFkg==}
+  '@uniformdev/assets@20.49.4-alpha.2':
+    resolution: {integrity: sha512-4+vEtXKlNLHfsseANkFKLz2A7U5nahuMj7BvGFZussmhdbqdQos1mERGP77sHp8J5amUGMuWs0CWwTtXR8chvQ==}
 
-  '@uniformdev/canvas-react@20.49.2':
-    resolution: {integrity: sha512-KEOakpKnAQkRKQFV/qa09OMqI0x7tpn7clS19I3B11yWvhQYLqMVXAkxg/kH/m3+/PeHyTATLC8wLnF0eAd2ng==}
+  '@uniformdev/canvas-react@20.49.4-alpha.2':
+    resolution: {integrity: sha512-Svxs2E5ROAvnhP4qG8rQL2uz8wxt321FAatDv9iZPsoGHj5TcvZKpw9Kepp3KOU6ihmZmbOlp2vQ3gSiJjaSmQ==}
     peerDependencies:
       immer: '>= 10'
       react: '>= 16 || 17 || 18'
       react-dom: '>=16'
 
-  '@uniformdev/canvas@20.49.2':
-    resolution: {integrity: sha512-A1upFt5K8D1e5wKyiU9kHCZP5mrdym2QwTBGoEVTohdFiLAAX0Tavu51YkdjOfmhNsS0WYV5/WPcEFdeAygTOw==}
+  '@uniformdev/canvas@20.49.4-alpha.2':
+    resolution: {integrity: sha512-qikuHBROE5sRqc4OClnO7zCvDbzCDgWOGT6C79Oq4MU9lOlZe8UnXxv2RxnUjz65WCEXkh/as8beY6CoZbhToQ==}
 
-  '@uniformdev/cli@20.49.2':
-    resolution: {integrity: sha512-jcUJ1w5+1k1NRE602vEI4cMulbpT7QB0HlDAZRV5RXg7FXeoSvRtdQvbxMp9YYHJgk22NAqM2Y4rK/KVD4vyRA==}
+  '@uniformdev/cli@20.49.4-alpha.2':
+    resolution: {integrity: sha512-GBo5y20917Zb43eVCiIat9wOgtXgQfopNTHnq+NAei4s8STXOL4xm3d7Lm+lkmhk+kM5rFCXo89fa5k/VukHPw==}
     hasBin: true
 
-  '@uniformdev/context-react@20.49.2':
-    resolution: {integrity: sha512-NRTnQAxiIujZ3+lqFaNDryn8KbYWFNf+GOeiVQ97yrTLoG6vS7IrdBG9fHV05mbF4XBH2I5aXRxLAZD9kNABCQ==}
+  '@uniformdev/context-react@20.49.4-alpha.2':
+    resolution: {integrity: sha512-YMw8axiwXRqh8g55aRwjS59DBVuAGF9gHJaVj2nJqu6hyDNPYWCCH0NKuvm8BQY8127kU6pGDkC78Nqu5jMhRA==}
     peerDependencies:
       react: '>=16.13.1 || 17 || 18'
       react-dom: '>=16.13.1'
 
-  '@uniformdev/context@20.49.2':
-    resolution: {integrity: sha512-ljCkIwaydElxs3SWr7QE8XuIq4sQniYceRWwp4HH8Ch81cqjrgmVZ98J5XiqhLZYBm9ySyaIY7Xf+7OmZeTfAQ==}
+  '@uniformdev/context@20.49.4-alpha.2':
+    resolution: {integrity: sha512-Juvgs093ERj4r9OOb39PqOYbhKNjCORJgeQiR1/kstSc+BMypjukJimOImTRg5ztIZDIRDYB5CQnd07yc3IAng==}
 
-  '@uniformdev/files@20.49.2':
-    resolution: {integrity: sha512-YD5uLPxqTy0QmWjsS2mp3oPghBnc0RDAJ5nbw5gl3RKyySnpnLffNYzzTX3QItzLTzK5SpIfPZl2jBRxoOGaWg==}
+  '@uniformdev/files@20.49.4-alpha.2':
+    resolution: {integrity: sha512-KGJqX1fhJNMs+WL9MlfvdrqZy51y2Vo3Cyag2ICAoDf+wKYaXJno/FwJc/MfTN1cQewFdyb6egkiOoBwtbbakA==}
 
-  '@uniformdev/next-app-router-client@20.49.2':
-    resolution: {integrity: sha512-f556Uqz1ej79hu6AhlryiqKWKGmAtEV7vp6iCeAjT2O34NHnXpFoFcrzYrzrVXJfE75ILCYTBkP15BbCPJEpHQ==}
+  '@uniformdev/next-app-router-client@20.49.4-alpha.2':
+    resolution: {integrity: sha512-xkjX5NTiAvzGM3+ntaCecjgUyRwsSqUrtfVfH5oJAKeesWkd5LXHnV/JAhHNqEMzIbBwymkhuRJidlP05UCVWA==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       next: '>=16.0.7'
       react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
       react-dom: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
 
-  '@uniformdev/next-app-router-shared@20.49.2':
-    resolution: {integrity: sha512-LXw7gq1JIkBJ5/NBNnRyCVN4qWR3TrdX9OBjGYEQp4J8dn0FCG6JrLmijbWV3kaFYp1kmPNHrS4Zvb2sD5pukw==}
+  '@uniformdev/next-app-router-shared@20.49.4-alpha.2':
+    resolution: {integrity: sha512-XPOnT1rV+UpTZZtH3PCGwI5WkIeioaCXsrxrytqJtmEzXp83kTEr+lLvUYt+CwsRyk+xQqvnN6n95+c457AyzA==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       next: '>=16.0.7'
       react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
       react-dom: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
 
-  '@uniformdev/next-app-router@20.49.2':
-    resolution: {integrity: sha512-Z8MXD6OmtrpnUVN60xunu9PObdD+kadv66D/yiYK5oWcATtFR0ma6u2O5BfOsJF/UIEBKuD0I1b4Q7aAfO+sAw==}
+  '@uniformdev/next-app-router@20.49.4-alpha.2':
+    resolution: {integrity: sha512-2V92zo3NRgJOI214X3qU4YWqbSQVlfs2hYf7Cek/8KJZuV6lCAKm3NRXJB55G+oLuOh7eCWE0gupNcJA6MVc9g==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       next: '>=16.0.7'
       react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
       react-dom: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
 
-  '@uniformdev/project-map@20.49.2':
-    resolution: {integrity: sha512-KVNSzVNyzlfG6gxFLW7ehLwDvJ0saT7ZxV1cH66C72Hi7q5HO31a3Q0SfyyLBPYpvXFnVXfc96Ebat8SYmUURg==}
+  '@uniformdev/project-map@20.49.4-alpha.2':
+    resolution: {integrity: sha512-XgGiYIMwWQ/ZZKUNtGbbcpILmRBVt3R4LRFBe0Bn7LgyjDMFnJTKGN7SwPJslEYcADm2MPa70nWlw2VU0vckQw==}
 
-  '@uniformdev/redirect@20.49.2':
-    resolution: {integrity: sha512-JhTOxNzR6Bus1rTmaJ99ontznIcxg0OXYMyoCDp0aB4VyB9FO9BYkLf+HaIqUeUkOxGebYO6Kb/dGxOINK56PA==}
+  '@uniformdev/redirect@20.49.4-alpha.2':
+    resolution: {integrity: sha512-ONn54VgjeSMfbjzc42wqWgyhFHhr74SSPmvPx2GJ6oQlk0XpU3XLNy8hlTW5Fc8du9Bae4mr1CkTbBpmrscvwg==}
 
-  '@uniformdev/richtext@20.49.2':
-    resolution: {integrity: sha512-2izXSsDPZ57IONstUIqxQTyBvMSq98Gop+LhWj1PGPOZDuUxSsh3fqA2uK2pKgzmvw/Q9pkk+IxMbgpAn1fVDA==}
+  '@uniformdev/richtext@20.49.4-alpha.2':
+    resolution: {integrity: sha512-VK2ONJBU13bw1I5/rCLclj5Tb+Cnh4qHRdqRHiBCYng0ANdzqSBnukzIt5+JnZDzxoPJVyBBWAjT5v12mCuuwQ==}
 
-  '@uniformdev/webhooks@20.49.2':
-    resolution: {integrity: sha512-Lx3XNGkE7tBx8OdGYLgaU3c5IkyNWGZBk26GN7t2iYp0xTbuNQcxHL0nHoJEZ3neGp9ZKthL0UVXYAVUr7QQVA==}
+  '@uniformdev/webhooks@20.49.4-alpha.2':
+    resolution: {integrity: sha512-rAonPEjORMWSh050PJnx7qyI3HK+2Ulw3pN3+pr8zkLe96GxnJyQUCgcWajDJQIvvEBv53hWeFjFwjOtvz6AkA==}
 
   '@vercel/functions@2.2.13':
     resolution: {integrity: sha512-14ArBSIIcOBx9nrEgaJb4Bw+en1gl6eSoJWh8qjifLl5G3E4dRXCFOT8HP+w66vb9Wqyd1lAQBrmRhRwOj9X9A==}
@@ -2228,38 +2228,38 @@ snapshots:
     dependencies:
       csstype: 3.2.3
 
-  '@uniformdev/assets@20.49.2':
+  '@uniformdev/assets@20.49.4-alpha.2':
     dependencies:
-      '@uniformdev/context': 20.49.2
+      '@uniformdev/context': 20.49.4-alpha.2
 
-  '@uniformdev/canvas-react@20.49.2(immer@10.1.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@uniformdev/canvas-react@20.49.4-alpha.2(immer@10.1.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@uniformdev/canvas': 20.49.2
-      '@uniformdev/context': 20.49.2
-      '@uniformdev/context-react': 20.49.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@uniformdev/richtext': 20.49.2
+      '@uniformdev/canvas': 20.49.4-alpha.2
+      '@uniformdev/context': 20.49.4-alpha.2
+      '@uniformdev/context-react': 20.49.4-alpha.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@uniformdev/richtext': 20.49.4-alpha.2
       immer: 10.1.3
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@uniformdev/canvas@20.49.2':
+  '@uniformdev/canvas@20.49.4-alpha.2':
     dependencies:
-      '@uniformdev/assets': 20.49.2
-      '@uniformdev/context': 20.49.2
-      '@uniformdev/richtext': 20.49.2
+      '@uniformdev/assets': 20.49.4-alpha.2
+      '@uniformdev/context': 20.49.4-alpha.2
+      '@uniformdev/richtext': 20.49.4-alpha.2
       immer: 10.1.3
 
-  '@uniformdev/cli@20.49.2(@types/node@20.19.33)(encoding@0.1.13)(typescript@5.9.3)':
+  '@uniformdev/cli@20.49.4-alpha.2(@types/node@20.19.33)(encoding@0.1.13)(typescript@5.9.3)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@20.19.33)
       '@thi.ng/mime': 2.8.6
-      '@uniformdev/assets': 20.49.2
-      '@uniformdev/canvas': 20.49.2
-      '@uniformdev/context': 20.49.2
-      '@uniformdev/files': 20.49.2
-      '@uniformdev/project-map': 20.49.2
-      '@uniformdev/redirect': 20.49.2
-      '@uniformdev/richtext': 20.49.2
+      '@uniformdev/assets': 20.49.4-alpha.2
+      '@uniformdev/canvas': 20.49.4-alpha.2
+      '@uniformdev/context': 20.49.4-alpha.2
+      '@uniformdev/files': 20.49.4-alpha.2
+      '@uniformdev/project-map': 20.49.4-alpha.2
+      '@uniformdev/redirect': 20.49.4-alpha.2
+      '@uniformdev/richtext': 20.49.4-alpha.2
       call-bind: 1.0.8
       colorette: 2.0.20
       cosmiconfig: 9.0.0(typescript@5.9.3)
@@ -2295,15 +2295,15 @@ snapshots:
       - supports-color
       - typescript
 
-  '@uniformdev/context-react@20.49.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@uniformdev/context-react@20.49.4-alpha.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@uniformdev/context': 20.49.2
+      '@uniformdev/context': 20.49.4-alpha.2
       cookie: 1.0.1
       dequal: 2.0.3
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@uniformdev/context@20.49.2':
+  '@uniformdev/context@20.49.4-alpha.2':
     dependencies:
       dequal: 2.0.3
       js-cookie: 3.0.5
@@ -2311,16 +2311,16 @@ snapshots:
       p-limit: 3.1.0
       rfdc: 1.4.1
 
-  '@uniformdev/files@20.49.2':
+  '@uniformdev/files@20.49.4-alpha.2':
     dependencies:
-      '@uniformdev/context': 20.49.2
+      '@uniformdev/context': 20.49.4-alpha.2
 
-  '@uniformdev/next-app-router-client@20.49.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@uniformdev/next-app-router-client@20.49.4-alpha.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@uniformdev/canvas': 20.49.2
-      '@uniformdev/canvas-react': 20.49.2(immer@10.1.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@uniformdev/context': 20.49.2
-      '@uniformdev/next-app-router-shared': 20.49.2(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@uniformdev/canvas': 20.49.4-alpha.2
+      '@uniformdev/canvas-react': 20.49.4-alpha.2(immer@10.1.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@uniformdev/context': 20.49.4-alpha.2
+      '@uniformdev/next-app-router-shared': 20.49.4-alpha.2(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       js-cookie: 3.0.5
       next: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4
@@ -2328,23 +2328,23 @@ snapshots:
     transitivePeerDependencies:
       - immer
 
-  '@uniformdev/next-app-router-shared@20.49.2(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@uniformdev/next-app-router-shared@20.49.4-alpha.2(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@uniformdev/canvas': 20.49.2
-      '@uniformdev/context': 20.49.2
+      '@uniformdev/canvas': 20.49.4-alpha.2
+      '@uniformdev/context': 20.49.4-alpha.2
       next: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       uuid: 9.0.1
 
-  '@uniformdev/next-app-router@20.49.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@uniformdev/next-app-router@20.49.4-alpha.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@uniformdev/canvas-react': 20.49.2(immer@10.1.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@uniformdev/next-app-router-client': 20.49.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@uniformdev/next-app-router-shared': 20.49.2(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@uniformdev/redirect': 20.49.2
-      '@uniformdev/richtext': 20.49.2
-      '@uniformdev/webhooks': 20.49.2
+      '@uniformdev/canvas-react': 20.49.4-alpha.2(immer@10.1.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@uniformdev/next-app-router-client': 20.49.4-alpha.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@uniformdev/next-app-router-shared': 20.49.4-alpha.2(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@uniformdev/redirect': 20.49.4-alpha.2
+      '@uniformdev/richtext': 20.49.4-alpha.2
+      '@uniformdev/webhooks': 20.49.4-alpha.2
       '@vercel/functions': 2.2.13
       encoding: 0.1.13
       next: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -2356,20 +2356,20 @@ snapshots:
       - '@aws-sdk/credential-provider-web-identity'
       - immer
 
-  '@uniformdev/project-map@20.49.2':
+  '@uniformdev/project-map@20.49.4-alpha.2':
     dependencies:
-      '@uniformdev/canvas': 20.49.2
-      '@uniformdev/context': 20.49.2
+      '@uniformdev/canvas': 20.49.4-alpha.2
+      '@uniformdev/context': 20.49.4-alpha.2
 
-  '@uniformdev/redirect@20.49.2':
+  '@uniformdev/redirect@20.49.4-alpha.2':
     dependencies:
-      '@uniformdev/context': 20.49.2
+      '@uniformdev/context': 20.49.4-alpha.2
       p-limit: 3.1.0
       rfdc: 1.4.1
 
-  '@uniformdev/richtext@20.49.2': {}
+  '@uniformdev/richtext@20.49.4-alpha.2': {}
 
-  '@uniformdev/webhooks@20.49.2':
+  '@uniformdev/webhooks@20.49.4-alpha.2':
     dependencies:
       zod: 3.25.76
 
