@@ -11,9 +11,6 @@ importers:
       '@uniformdev/next-app-router':
         specifier: 20.49.4-alpha.2
         version: 20.49.4-alpha.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@uniformdev/next-app-router-client':
-        specifier: 20.49.4-alpha.2
-        version: 20.49.4-alpha.2(immer@10.1.3)(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next:
         specifier: ^16.1.6
         version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)

@@ -7,16 +7,17 @@ import {
 
 export const HeroComponent = ({
   parameters: { title, description },
-  // you can get variant if needed
-  // variant,
   component,
 }: ComponentProps<HeroProps>) => {
   return (
-    <>
+    <section className="flex flex-col items-center gap-6">
+      <div className="inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-3.5 py-1 text-xs font-medium text-indigo-600 tracking-wide">
+        Uniform Starter Kit for Next.js App Router
+      </div>
       <UniformText
         component={component}
         parameter={title}
-        className="m-0 text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-center"
+        className="m-0 text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-center tracking-tight text-neutral-900"
         placeholder={"title goes here"}
         as="h1"
       />
@@ -24,9 +25,10 @@ export const HeroComponent = ({
         component={component}
         parameter={description}
         placeholder={"description goes here"}
-        className="my-4 text-xl sm:text-2xl leading-normal text-center"
+        className="max-w-2xl text-lg sm:text-xl leading-relaxed text-center text-neutral-500"
       />
-    </>
+      <div className="mt-4 h-px w-16 bg-gradient-to-r from-transparent via-neutral-300 to-transparent" />
+    </section>
   );
 };
 
