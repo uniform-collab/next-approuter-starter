@@ -1,0 +1,147 @@
+{
+  "header": {
+    "logo": "TechWave",
+    "navigation": [
+      { "label": "Features", "href": "#features", "hasDropdown": true },
+      { "label": "Pricing", "href": "#pricing", "hasDropdown": true },
+      { "label": "About Us", "href": "#about", "hasDropdown": true },
+      { "label": "Contact", "href": "#contact", "hasDropdown": true }
+    ],
+    "actions": [
+      { "label": "Download app", "href": "#download", "variant": "link" },
+      { "label": "Log in", "href": "#login", "variant": "link" },
+      { "label": "Try it free", "href": "#signup", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": "Transform Your Business with Our Cutting-Edge Solutions",
+    "image": {
+      "src": "/images/hero.jpg",
+      "alt": "TechWave platform dashboard"
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Flexible Pricing Plans",
+    "sectionSubtitle": "Choose the plan that fits your business needs",
+    "plans": [
+      {
+        "tier": "Starter",
+        "price": "Free",
+        "description": "Try us out first",
+        "ctaLabel": "Start for free",
+        "ctaVariant": "outline",
+        "highlighted": false,
+        "features": [
+          "1-line feature name or amount",
+          "1-line feature name or amount",
+          "1-line feature name or amount",
+          "1-line feature name or amount",
+          "1-line feature name or amount"
+        ]
+      },
+      {
+        "tier": "Professional",
+        "price": "$99",
+        "description": "Growing Teams",
+        "ctaLabel": "Start with Plus",
+        "ctaVariant": "primary",
+        "highlighted": true,
+        "features": [
+          "Priority Support",
+          "Unlimited Projects",
+          "100GB Storage",
+          "Dedicated Account Manager",
+          "Phone Support"
+        ]
+      },
+      {
+        "tier": "Enterprise",
+        "price": "Contact Us",
+        "description": "Large Organizations",
+        "ctaLabel": "Contact Sales",
+        "ctaVariant": "outline",
+        "highlighted": false,
+        "features": [
+          "24/7 Support",
+          "Custom Solutions",
+          "Unlimited Storage",
+          "Personalized Training",
+          "Dedicated Team"
+        ]
+      }
+    ]
+  },
+  "splitContent": {
+    "eyebrow": "Why Choose Us?",
+    "body": "Our platform is designed to scale with your business, offering unmatched flexibility and performance."
+  },
+  "testimonials": {
+    "sectionTitle": "What Our Customers Say",
+    "items": [
+      {
+        "name": "Dylan Field",
+        "role": "CEO at Figma",
+        "avatar": "/images/avatars/dylan.jpg",
+        "quote": "\"This is a user quote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in urna sem sollicitudin.\""
+      },
+      {
+        "name": "Niko Drummond",
+        "role": "Project Manager, Apex Solutions",
+        "avatar": "/images/avatars/niko.jpg",
+        "quote": "A game-changer for our team."
+      },
+      {
+        "name": "Sasha Kline",
+        "role": "CEO, Quantum Leap",
+        "avatar": "/images/avatars/sasha.jpg",
+        "quote": "Incredible support and features."
+      },
+      {
+        "name": "Jaxon Lark",
+        "role": "Head of Operations, FutureWorks",
+        "avatar": "/images/avatars/jaxon.jpg",
+        "quote": "Boosted our productivity tenfold."
+      }
+    ]
+  },
+  "footer": {
+    "logo": "TechWave",
+    "columns": [
+      {
+        "title": "Title",
+        "links": [
+          { "label": "Page link", "href": "#" },
+          { "label": "Page link", "href": "#" },
+          { "label": "Page link", "href": "#" },
+          { "label": "Page link", "href": "#" },
+          { "label": "Page link", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Blog", "href": "#" },
+          { "label": "Help Center", "href": "#" },
+          { "label": "Contact Support", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Terms of Service", "href": "#" },
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Cookie Policy", "href": "#" }
+        ]
+      },
+      {
+        "title": "Social",
+        "links": [
+          { "label": "LinkedIn", "href": "#" },
+          { "label": "Twitter", "href": "#" },
+          { "label": "Facebook", "href": "#" }
+        ]
+      }
+    ],
+    "socialIcons": ["facebook", "instagram", "x"]
+  }
+}

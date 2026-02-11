@@ -1,24 +1,27 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', sans-serif;
+  --color-primary: #CC3A00;
+  --color-primary-dark: #A32E00;
+  --color-foreground: #1A1A1A;
+  --color-muted: #6B6B6B;
+  --color-border: #E5E5E5;
+  --color-surface: #F5F5F5;
+  --color-background: #FFFFFF;
+}
+
 @layer base {
   html {
     @apply scroll-smooth;
   }
 
   body {
-    @apply bg-white text-neutral-800 antialiased;
-    background-image:
-      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.08), transparent),
-      radial-gradient(ellipse 60% 40% at 80% 60%, rgba(244, 114, 182, 0.05), transparent);
+    @apply bg-background text-foreground antialiased;
     min-height: 100dvh;
   }
 
-  a {
-    @apply text-indigo-600 underline decoration-indigo-300 underline-offset-2
-      transition-colors duration-200 hover:text-indigo-800 hover:decoration-indigo-500;
-  }
-
   ::selection {
-    @apply bg-indigo-100 text-indigo-900;
+    @apply bg-primary/10 text-primary-dark;
   }
 }
