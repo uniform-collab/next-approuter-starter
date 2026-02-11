@@ -5,12 +5,14 @@ import {
 
 import { HeroComponent } from "./hero";
 import { Page } from "./page";
+import { WhyChooseUsComponent } from "./whyChooseUs";
 import { ComponentProps } from "@uniformdev/next-app-router/component";
 
 // Register components here: key = component type, value = React component
 const componentRegistry: Record<string, ComponentType<any>> = {
   page: Page,
   hero: HeroComponent,
+  whyChooseUs: WhyChooseUsComponent,
 };
 
 export const resolveComponent: ResolveComponentFunction = ({ component }) => {
