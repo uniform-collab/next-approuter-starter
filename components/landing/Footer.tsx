@@ -49,7 +49,7 @@ function XIcon() {
   );
 }
 
-const iconMap: Record<string, () => JSX.Element> = {
+const iconMap: Record<string, () => React.ReactElement> = {
   facebook: FacebookIcon,
   instagram: InstagramIcon,
   x: XIcon,
