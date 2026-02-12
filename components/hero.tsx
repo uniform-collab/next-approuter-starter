@@ -6,7 +6,7 @@ import {
 } from "@uniformdev/next-app-router/component";
 
 export const HeroComponent = ({
-  parameters: { title, description },
+  parameters: { title, subline, description },
   component,
 }: ComponentProps<HeroProps>) => {
   return (
@@ -21,6 +21,13 @@ export const HeroComponent = ({
         placeholder={"title goes here"}
         as="h1"
       />
+      <UniformText
+        component={component}
+        parameter={subline}
+        className="text-lg sm:text-xl font-medium text-center text-neutral-600"
+        placeholder={"subline goes here"}
+        as="p"
+      />
       <UniformRichText
         component={component}
         parameter={description}
@@ -34,5 +41,6 @@ export const HeroComponent = ({
 
 export type HeroProps = {
   title: ComponentParameter<string>;
+  subline: ComponentParameter<string>;
   description: ComponentParameter<string>;
 };
