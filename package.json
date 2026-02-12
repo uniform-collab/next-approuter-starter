@@ -6,12 +6,10 @@
     "build": "next build",
     "start": "next start",
     "pull": "uniform sync pull",
-    "push": "uniform sync push",
-    "postinstall": "uniform sync push"
+    "push": "uniform sync push"
   },
   "dependencies": {
     "@uniformdev/next-app-router": "20.49.4-alpha.2",
-    "dotenv": "^17.2.4",
     "next": "^16.1.6",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
