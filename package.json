@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "pull": "uniform sync pull",
-    "push": "uniform sync push"
+    "push": "uniform sync push",
+    "postinstall": "uniform sync push"
   },
   "dependencies": {
     "@uniformdev/next-app-router": "20.49.4-alpha.2",

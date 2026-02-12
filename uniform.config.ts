@@ -1,3 +1,16 @@
-import { uniformConfig } from "@uniformdev/cli/config";
+import { uniformConfig } from '@uniformdev/cli/config';
 
-module.exports = uniformConfig({ preset: "all", disableEntities: ["webhook", "policyDocument"] });
+module.exports = uniformConfig({
+    preset: 'none',
+    config: {
+        serialization: {
+            entitiesConfig: {
+                component: {},
+                composition: { publish: true },
+                componentPattern: {},
+                projectMapNode: {},
+                projectMapDefinition: {},
+            },
+        },
+    },
+});
