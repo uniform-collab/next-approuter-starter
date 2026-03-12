@@ -6,17 +6,20 @@
     "build": "next build",
     "start": "next start",
     "pull": "uniform sync pull",
-    "push": "uniform sync push"
+    "push": "uniform sync push",
+    "lint": "eslint . && stylelint '**/*.css'",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint '**/*.css'"
   },
   "dependencies": {
+    "@uniformdev/assets": "^20.49.4",
+    "@uniformdev/canvas": "^20.49.4",
+    "@uniformdev/context": "^20.49.4",
     "@uniformdev/next-app-router": "^20.49.4",
     "@uniformdev/next-app-router-client": "^20.49.4",
     "@uniformdev/next-app-router-shared": "^20.49.4",
-    "@uniformdev/richtext": "^20.49.4",
-    "@uniformdev/canvas": "^20.49.4",
-    "@uniformdev/assets": "^20.49.4",
-    "@uniformdev/context": "^20.49.4",
     "@uniformdev/project-map": "^20.49.4",
+    "@uniformdev/richtext": "^20.49.4",
     "next": "^16.1.6",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
@@ -27,6 +30,10 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@uniformdev/cli": "^20.49.4",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.1.6",
+    "stylelint": "^17.4.0",
+    "stylelint-config-standard": "^40.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
