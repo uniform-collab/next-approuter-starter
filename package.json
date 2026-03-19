@@ -12,29 +12,29 @@
     "lint:css": "stylelint '**/*.css'"
   },
   "dependencies": {
-    "@uniformdev/assets": "^20.49.4",
-    "@uniformdev/canvas": "^20.49.4",
-    "@uniformdev/context": "^20.49.4",
-    "@uniformdev/next-app-router": "^20.49.4",
-    "@uniformdev/next-app-router-client": "^20.49.4",
-    "@uniformdev/next-app-router-shared": "^20.49.4",
-    "@uniformdev/project-map": "^20.49.4",
-    "@uniformdev/richtext": "^20.49.4",
-    "next": "^16.1.6",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "@uniformdev/assets": "^20.55.0",
+    "@uniformdev/canvas": "^20.55.0",
+    "@uniformdev/context": "^20.55.0",
+    "@uniformdev/next-app-router": "^20.55.0",
+    "@uniformdev/next-app-router-client": "^20.55.0",
+    "@uniformdev/next-app-router-shared": "^20.55.0",
+    "@uniformdev/project-map": "^20.55.0",
+    "@uniformdev/richtext": "^20.55.0",
+    "next": "^16.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@uniformdev/cli": "^20.49.4",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^20.19.37",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@uniformdev/cli": "^20.55.0",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^16.1.6",
-    "stylelint": "^17.4.0",
+    "eslint-config-next": "^16.2.0",
+    "stylelint": "^17.5.0",
     "stylelint-config-standard": "^40.0.0",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3"
   }
 }
