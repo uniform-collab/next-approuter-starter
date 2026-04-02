@@ -1,3 +1,6 @@
-import { uniformConfig } from '@uniformdev/cli/config';
+import { uniformConfig } from "@uniformdev/cli/config";
 
-module.exports = uniformConfig({ preset: "all", disableEntities: ["webhook", "policyDocument", "previewViewport"] });
+module.exports = uniformConfig({
+  preset: "all",
+  disableEntities: ["webhook", "policyDocument", "previewViewport", "locale"],
+});
